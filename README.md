@@ -12,14 +12,14 @@
   Скачать: https://git-scm.com/downloads  
 
 2. **Склонируйте репозиторий**  
-  git clone https://github.com/MrRiden/training_practice.git  
-  cd training_practice  
+  `git clone https://github.com/MrRiden/training_practice.git`  
+  `cd training_practice`  
 
 3. **Установите зависимости**  
-  pip install -r requirements.txt  
+  `pip install -r requirements.txt`  
 
 4. **Запустите программу**  
-  python -m pytest test_app.py  
+  `python -m pytest test_app.py`  
 
 ## Ручная установка  
 
@@ -32,10 +32,10 @@
   Скачайте с https://www.python.org/downloads/  
 
 3. **Откройте терминал и перейдите в папку проекта**  
-  cd путь_к_распакованной_папке (shift + ПКМ по папке и "Копировать как путь")  
+  `cd путь_к_распакованной_папке` (shift + ПКМ по папке и "Копировать как путь")  
 
 4. **Установите зависимости**  
-  pip install -r requirements.txt  
+  `pip install -r requirements.txt`  
 
 5. **Запустите программу**  
-  python -m pytest test_app.py  
+  `python -m pytest test_app.py`  
