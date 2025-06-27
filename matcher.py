@@ -6,14 +6,9 @@ def match_template(query_fields):
     base_dir = os.path.dirname(os.path.abspath(__file__))
     db_path = os.path.join(base_dir, "db.json")
     
-    with open(db_path, "r", encoding="utf-8") as f:
-        data = f.read()
-        print("DEBUG: Содержимое db.json:")
-        print(data)
     
     db = TinyDB(db_path)
     templates = db.all()
-    print("DEBUG templates:", templates)
 
     query_types = {k: detect_type(v) for k, v in query_fields.items()}
 
