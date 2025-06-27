@@ -1,0 +1,21 @@
+{
+  "_default": {
+    "1": {
+      "name": "Order_form",
+      "customer": "text",
+      "order_id": "text",
+      "order_date": "date",
+      "contact": "phone"
+    },
+    "2": {
+      "name": "Test",
+      "f_name1": "email",
+      "f_name2": "date"
+    },
+    "3": {
+      "name": "Profile data",
+      "login": "email",
+      "tel": "phone"
+    }
+  }
+}
